@@ -1,0 +1,666 @@
+body{
+	font-family: "Montserrat", sans-serif;
+	width: 100%;
+}
+
+header{
+	position: absolute;
+	font-family: "Montserrat", sans-serif;
+
+	width: 100%;
+	height: 96px;
+}
+
+main{
+	height: 2158px;
+
+	padding: 764px 2.8%;
+}
+
+
+
+
+/*----HEADER----*/
+
+
+
+
+.head_bg{
+	position: absolute;
+	width: 100%;
+	height: 96px;
+	background-color: #9D6868;
+	opacity: .17;
+}
+
+.logo{
+	width: 110px;
+	opacity: 1;
+	margin-top: 28px;
+	color: #000;
+	font-size: 36px;
+}
+
+.head_content{
+	display: inline-flex;
+	justify-content: space-between;
+	width: 94.4%;
+	left: 2.8%;
+	height: 96px;
+	opacity: 1;
+	position: absolute;
+}
+
+.head_list{
+	width: 48%;
+	line-height: 30px;
+	font-size: 24px;
+	position: absolute;
+	justify-content: space-between;
+	left: 25%;
+	top: 40px;
+
+	display: inline-flex;
+	align-items: flex-start;
+}
+
+.home{
+	font-weight: 700;
+	text-decoration: underline;
+}
+
+.account_list{
+	padding-top: 36px;
+	display: inline-flex;
+	gap: 40px;
+}
+
+
+
+
+/*----SLIDER----*/
+
+
+
+
+section{
+	position: absolute;
+	width: 100%;
+	height: 668px;
+	top: 96px;
+}
+
+section img{
+	display: block;
+	width: 94%;
+	height: 560px;
+	margin: 54px auto 0 auto;
+}
+
+.arrow-left{
+	cursor: pointer;
+	width: 56px;
+	height: 56px;
+
+	position: absolute;
+	top: 250px;
+	left: 3.75%;
+}
+
+.arrow-right{
+	cursor: pointer;
+	width: 56px;
+	height: 56px;
+
+	position: absolute;
+	top: 250px;
+	left: 92%;
+}
+
+.first-slide-content{
+	position: absolute;
+	font-size: 24px;
+	line-height: 29px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+	
+	gap: 48px;
+	width: 50%;
+	height: 372px;
+	left: 26%;
+	top: 146px;
+}
+
+.head{
+	font-family: 'Passion One', cursive;
+	font-size: 120px;
+	line-height: 132px;
+}
+
+.slider button{
+	color: #fff;
+	font-size: 24px;
+	font-weight: 700;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	padding: 24px 40px;
+	width: 240px;
+	height: 86px;
+	
+	border-radius: 10px;
+	border-width: 2px;
+	border-color: #121111;
+	background: #121111;
+}
+
+
+
+
+
+/*----MAIN PAGE----*/
+
+
+
+.see-more{
+	padding-top: 10px;
+	padding-left: 90%;
+	font-weight: 600;
+
+
+	font-size: 18px;
+	line-height: 24px;
+
+	text-decoration: underline;
+	color: #575757;
+}
+
+
+
+.page-one{
+	display: flex;
+	gap: 56px;
+	flex-direction: column;
+	height: 408px;
+}
+
+.top-sales{
+	width: 100%;
+	font-size: 40px;
+	font-weight: 600;
+	text-align: center;
+	line-height: 48px;
+}
+
+.goods{
+	display: inline-flex;
+	justify-content: center;
+	width: 100%;
+	gap: 3.6%;
+}
+
+
+/*----OFFERS PAGE 1----*/
+
+
+.offer1{
+
+	width: 304px;
+	height: 304px;
+
+	font-family: "Montserrat", sans-serif;
+	font-size: 18px;
+	line-height: 24px;
+
+	background-image: url(img/purple_theory.png);
+}
+
+.offer-text1{
+	display: inline-flex;
+	padding: 6px 12px;
+	width: 186px; 
+	justify-content: center;
+
+	margin: 244px 59px 0 59px;
+
+	border-radius: 10px;
+	background: rgba(235, 229, 200, 0.50);
+}
+
+
+
+.offer2{
+
+	width: 304px;
+	height: 304px;
+
+	font-family: "Montserrat", sans-serif;
+	font-size: 18px;
+	line-height: 24px;
+
+	background-image: url(img/pinks_and_white.png);
+}
+
+.offer-text2{
+	display: inline-flex;
+	padding: 6px 12px;
+	width: 186px; 
+	justify-content: center;
+
+	margin: 244px 59px 0 59px;
+
+	border-radius: 10px;
+	background: rgba(221, 146, 136, 0.50);
+}
+
+
+
+.offer3{
+
+	width: 304px;
+	height: 304px;
+
+	font-family: "Montserrat", sans-serif;
+	font-size: 18px;
+	line-height: 24px;
+
+	background-image: url(img/the_love_story.png);
+}
+
+.offer-text3{
+	display: inline-flex;
+	padding: 6px 12px;
+	width: 186px; 
+	justify-content: center;
+
+	margin: 244px 59px 0 59px;
+
+	border-radius: 10px;
+	background: rgba(120, 121, 126, 0.50)
+}
+
+
+
+.offer4{
+
+	width: 304px;
+	height: 304px;
+
+	font-family: "Montserrat", sans-serif;
+	font-size: 18px;
+	line-height: 24px;
+
+	background-image: url(img/sunbae.png);
+}
+
+.offer-text4{
+	display: inline-flex;
+	padding: 6px 12px;
+	width: 186px; 
+	justify-content: center;
+
+	margin: 244px 59px 0 59px;
+
+	color: #fff;
+	border-radius: 10px;
+	background: rgba(168, 124, 77, 0.50);
+}
+
+
+
+
+
+
+.page-two{
+	margin-top: 71px;
+	display: flex;
+	gap: 56px;
+	flex-direction: column;
+	height: 408px;
+}
+
+.offer5{
+
+	width: 304px;
+	height: 304px;
+
+	font-family: "Montserrat", sans-serif;
+	font-size: 18px;
+	line-height: 24px;
+
+	background-image: url(img/cute\ romance.png);
+}
+
+.offer-text5{
+	display: inline-flex;
+	padding: 6px 12px;
+	width: 186px; 
+	justify-content: center;
+
+	margin: 244px 59px 0 59px;
+
+	border-radius: 10px;
+	background: rgba(207, 180, 164, 0.50);
+}
+
+
+
+
+.offer6{
+
+	width: 304px;
+	height: 304px;
+
+	font-family: "Montserrat", sans-serif;
+	font-size: 18px;
+	line-height: 24px;
+
+	background-image: url(img/lovely\ tulips.png);
+}
+
+.offer-text6{
+	display: inline-flex;
+	padding: 6px 12px;
+	width: 186px; 
+	justify-content: center;
+
+	margin: 244px 59px 0 59px;
+
+	border-radius: 10px;
+	background: rgba(158, 164, 154, 0.50);
+}
+
+
+
+.offer7{
+
+	width: 304px;
+	height: 304px;
+
+	font-family: "Montserrat", sans-serif;
+	font-size: 18px;
+	line-height: 24px;
+
+	background-image: url(img/summer_magic.png);
+}
+
+.offer-text7{
+	display: inline-flex;
+	padding: 6px 12px;
+	width: 186px; 
+	justify-content: center;
+
+	margin: 244px 59px 0 59px;
+
+	border-radius: 10px;
+	background: rgba(140, 120, 93, 0.50);
+}
+
+
+
+.offer8{
+
+	width: 304px;
+	height: 304px;
+
+	font-family: "Montserrat", sans-serif;
+	font-size: 18px;
+	line-height: 24px;
+
+	background-image: url(img/childhood.png);
+}
+
+.offer-text8{
+	display: inline-flex;
+	padding: 6px 12px;
+	width: 186px; 
+	justify-content: center;
+
+	margin: 244px 59px 0 59px;
+
+	border-radius: 10px;
+	background: rgba(238, 226, 186, 0.50);
+}
+
+
+
+.page-three{
+	margin-top: 71px;
+	display: flex;
+	gap: 56px;
+	flex-direction: column;
+	height: 408px;
+}
+
+.offer9{
+
+	width: 304px;
+	height: 304px;
+
+	font-family: "Montserrat", sans-serif;
+	font-size: 18px;
+	line-height: 24px;
+
+	background-image: url(img/nature_crime.png);
+}
+
+.offer-text9{
+	display: inline-flex;
+	padding: 6px 12px;
+	width: 186px; 
+	justify-content: center;
+
+	margin: 244px 59px 0 59px;
+
+	border-radius: 10px;
+	background: rgba(200, 177, 162, 0.50);
+}
+
+.offer10{
+
+	width: 304px;
+	height: 304px;
+
+	font-family: "Montserrat", sans-serif;
+	font-size: 18px;
+	line-height: 24px;
+
+	background-image: url(img/green_boom.png);
+}
+
+.offer-text10{
+	display: inline-flex;
+	padding: 6px 12px;
+	width: 186px; 
+	justify-content: center;
+
+	margin: 244px 59px 0 59px;
+
+	border-radius: 10px;
+	background: rgba(220, 219, 213, 0.50);
+}
+
+.offer11{
+
+	width: 304px;
+	height: 304px;
+
+	font-family: "Montserrat", sans-serif;
+	font-size: 18px;
+	line-height: 24px;
+
+	background-image: url(img/sour_sounds.png);
+}
+
+.offer-text11{
+	display: inline-flex;
+	padding: 6px 12px;
+	width: 186px; 
+	justify-content: center;
+
+	margin: 244px 59px 0 59px;
+
+	border-radius: 10px;
+	background: rgba(200, 202, 201, 0.50);
+}
+
+.offer12{
+
+	width: 304px;
+	height: 304px;
+
+	font-family: "Montserrat", sans-serif;
+	font-size: 18px;
+	line-height: 24px;
+
+	background-image: url(img/green_lagoon.png);
+}
+
+.offer-text12{
+	display: inline-flex;
+	padding: 6px 12px;
+	width: 186px; 
+	justify-content: center;
+
+	margin: 244px 59px 0 59px;
+
+	border-radius: 10px;
+	background: rgba(213, 203, 202, 0.50);
+}
+
+
+
+
+/*----PRE-FOOTER----*/
+
+
+.pre-footer{
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: 560px;
+	top: 2362px;
+}
+
+.pre-footer img{
+	width: 1360px;
+	height: 560px;
+
+	border-radius: 32px;
+}
+
+.pre-footer-content{
+	color: #FFF;
+	font-family: "Montserrat", sans-serif;
+	position: absolute;
+	font-size: 24px;
+	line-height: 29px;
+	font-weight: 500;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+	
+	gap: 72px;
+	width: 1036px;
+	height: 339px;
+	top: 146px;
+}
+
+.pref-head{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 800;
+	font-size: 40px;
+	line-height: 49px;
+}
+
+.pre-footer-content button{
+	font-size: 24px;
+	font-weight: 500;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	width: 244px;
+	height: 88px;
+	
+	border-color: rgba(199, 208, 199, 0.70);
+	border-radius: 32px;
+	background: rgba(199, 208, 199, 0.70);
+}
+
+
+/*----FOOTER----*/
+
+
+footer{
+	font-family: "Montserrat", sans-serif;
+	position: absolute;
+	top: 3042px;
+	width: 100%;
+	height: 240px;
+
+	background: rgba(157, 104, 104, 0.20);
+}
+
+.footer{
+	display: inline-flex;
+	justify-content: space-between;
+	margin-left: 10.7%;
+	margin-top: 58px;
+
+	width: 78.68%;
+	height: 124px;
+}
+
+.footer-links{
+	display: inline-flex;
+	justify-content: space-between;
+
+	width: 40%;
+
+}
+
+.links-1{
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+
+	font-size: 24px;
+	font-weight: 600;
+	line-height: normal;
+}
+
+.links-2{
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+	
+	font-size: 16px;
+	font-weight: 600;
+	line-height: normal;
+}
+
+.footer-social{
+	display: flex;
+	flex-direction: column;
+	gap: 36px;
+
+	width: 11.21%;
+}
+
+.social-icons{
+	display: inline-flex;
+	gap: 24px;
+}
+
+.foot-logo{
+	font-family: "Montserrat", sans-serif;
+	width: 110px;
+	color: #000;
+	font-size: 36px;
+}
